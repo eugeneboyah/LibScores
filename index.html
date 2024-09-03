@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LibScore | Dashboard</title>
+
+  <!-- Internal css file -->
+   <link rel="stylesheet" href="./main.css">
+   
+  <!-- bootstrap link place below -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+   <!-- Font awesome link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+   integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+   crossorigin="anonymous" 
+   referrerpolicy="no-referrer" 
+   />
+</head>
+<body class="home_body d-flex justify-content-center">
+  <div class="container-lg">
+    <section class="display_container">
+
+    </section>
+    <header class="header border-bottom">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div>
+            <a href="#">
+             <i class="fa-solid fa-bars"></i>
+            </a> 
+          </div>
+          <div>
+             <a href="#" class="navbar-brand">
+              <img src="./images/Untitled-removebg-preview.png" alt="LibScore Logo" width="250px" height="80px">
+            </a>
+          </div>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active text-light">Scores</a>
+                    <a href="#" class="nav-item nav-link text-light">Favourites</a>
+                    <a href="#" class="nav-item nav-link text-light">News</a>
+                </div>
+            </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid">
+      <div>
+        <a href="#"><button type="button" class="btn bg-light fw-bold">FootBall</button></a>
+        <a href="#"><button type="button" class="btn bg-light fw-bold">Basketball</button></a>
+        <a href="#"><button type="button" class="btn bg-light fw-bold">KickBall</button></a>
+      </div>
+      <section class="dashcontainer d-flex gap-4">
+          <!-- Navbar -->
+          <aside class="nav-bar side-bar col-md-3 col-lg-2 d-md-block sidebar border collapse">
+            <form class="d-flex">
+               <div class="input-group">                    
+                  <input type="text" class="form-control" placeholder="Search">
+                  <button type="button" class="btn btn-secondary"><i class="fa-solid fa-magnifying-glass"></i></button>
+               </div>
+              </form>
+              <div class="position-sticky">
+                  <ul class="nav flex-column gap-5">
+                      <li class="nav-item">
+                          <a class="nav-item nav-link text-light d-flex justify-content-between align-items-center" href="#">
+                            <span>Leagues</span>
+                              <i class="fa-solid fa-angle-right"></i>
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-item nav-link text-light d-flex justify-content-between align-items-center" href="#">
+                            <span>Teams</span>
+                              <i class="fa-solid fa-angle-right"></i>
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-item nav-link text-light d-flex justify-content-between align-items-center" href="#">
+                            <span>County Meet</span>
+                              <i class="fa-solid fa-angle-right"></i>
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-item nav-link text-light d-flex justify-content-between align-items-center" href="#">
+                            <span>Comprtition</span>
+                              <i class="fa-solid fa-angle-right"></i>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </aside>
+          <main class="border">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarCollapse">
+                      <div class="navbar-nav d-flex justify-content-between align-items-center">
+                        <a href="#"><button type="button" class="btn bg-light fw-bold">Live</button></a>
+                          <a href="#" class="nav-item nav-link text-light fw-bold">SUN<br>01 SEP</a>
+                          <a href="#" class="nav-item nav-link text-light fw-bold">MON<br>02 SEP</a>
+                          <a href="#" class="nav-item nav-link text-light fw-bold">TODAY<br>03 SEP</a>
+                          <a href="#" class="nav-item nav-link text-light fw-bold">WED<br>01 SEP</a>
+                          <a href="#" class="nav-item nav-link text-light fw-bold">THU<br>01 SEP</a>
+                          <a href="#" class="nav-item nav-link text-light fw-bold"><i class="fa-regular fa-calendar-days"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </nav>
+          <section>
+
+          </section>
+          </main>
+      </section>
+    </div>
+  </div>
+</body>
+
+
+</html>

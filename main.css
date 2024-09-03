@@ -1,0 +1,43 @@
+/* Font family links */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* The unversial selector*/
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Setting the colors and font family in the root */
+:root{
+  --bg_color: #020035;
+  --text_Dcolor: #ffffff;
+  --lhover_color: #fe0101;
+  --tableD_hoverc: #808080;
+  --ffont_family: "Roboto", sans-serif;
+}
+
+/* The home page styleing starts here */
+
+.home_body {
+  background: var(--bg_color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The home page styling ends here */
